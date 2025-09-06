@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #122831);
+  color: #ffffff;
+  min-height: 100vh;
+  margin: 0;
+  font-family:'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: 1px; 
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    z-index: 1000; 
+}
+
+.navbar{
+    gap: 30px;
+    display: flex;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+
+}
